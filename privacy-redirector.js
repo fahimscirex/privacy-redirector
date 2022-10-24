@@ -49,13 +49,13 @@ var redirect_imdb = true;
 var redirect_imgur = true;
 var redirect_instagram = false;
 var redirect_medium = true;
-var redirect_quora = false;
-var redirect_reddit = true;
+var redirect_quora = true;
+var redirect_reddit = false;
 var redirect_reuters = true;
 var redirect_tiktok = true;
-var redirect_twitter = true;
+var redirect_twitter = false;
 var redirect_wikipedia = true;
-var redirect_youtube = true;
+var redirect_youtube = false;
 
 // // // // // // // // // // // // //
 
