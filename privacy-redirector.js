@@ -44,12 +44,12 @@ CHANGE THE RELEVANT VALUE TO "false" TO
 DISABLE THE REDIRECTION FOR THAT
 PARTICULAR SITE */
 var redirect_gtranslate = true;
-var redirect_hackernews = true;
+var redirect_hackernews = false;
 var redirect_imdb = true;
 var redirect_imgur = true;
 var redirect_instagram = false;
 var redirect_medium = true;
-var redirect_quora = true;
+var redirect_quora = false;
 var redirect_reddit = false;
 var redirect_reuters = true;
 var redirect_tiktok = true;
