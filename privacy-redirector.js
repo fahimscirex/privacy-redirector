@@ -43,14 +43,14 @@
 CHANGE THE RELEVANT VALUE TO "false" TO
 DISABLE THE REDIRECTION FOR THAT
 PARTICULAR SITE */
-var redirect_gtranslate = true;
-var redirect_hackernews = false;
+var redirect_gtranslate = false;
+var redirect_hackernews = true;
 var redirect_imdb = true;
 var redirect_imgur = true;
 var redirect_instagram = false;
 var redirect_medium = true;
-var redirect_quora = false;
-var redirect_reddit = false;
+var redirect_quora = true;
+var redirect_reddit = true;
 var redirect_reuters = true;
 var redirect_tiktok = true;
 var redirect_twitter = false;
@@ -322,7 +322,10 @@ function redirectHackerNews() {
 	}
 
 	window.stop();
-	let newURL = window.location.protocol + "//" + "hn.algolia.com";
+	let newURL = window.location.protocol + "//" + "hckrnws.com" +
+                 window.location.pathname.replace("item","/stories") +
+                 window.location.search.replace("?id=", "/") +
+                 window.location.hash;
 	window.location.replace(newURL);
 }
 
