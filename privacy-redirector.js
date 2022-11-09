@@ -2,15 +2,15 @@
 // @name Privacy Redirector
 // @name:tr Gizlilik Yönlendiricisi
 // @name:de Datenschutz Umleiter
-// @namespace https://github.com/dybdeskarphet/privacy-redirector
+// @namespace https://github.com/fahimscirex/privacy-redirector
 // @license GPLv3
 // @version 1.3.1
 // @description	Redirect social media platforms to their privacy respecting frontends
 // @description:tr Sosyal medya platformlarını, gizliliğe saygı duyan önyüzlerine yönlendirir
 // @description:de Leitet von Social-Media-Plattformen auf deren jeweilige datenschutzfreundlicheren Frontends
-// @updateURL https://raw.githubusercontent.com/dybdeskarphet/privacy-redirector/main/privacy-redirector.js
-// @downloadURL https://raw.githubusercontent.com/dybdeskarphet/privacy-redirector/main/privacy-redirector.js
-// @supportURL https://github.com/dybdeskarphet/privacy-redirector
+// @updateURL https://raw.githubusercontent.com/fahimscirex/privacy-redirector/main/privacy-redirector.js 
+// @downloadURL https://raw.githubusercontent.com/fahimscirex/privacy-redirector/main/privacy-redirector.js
+// @supportURL https://github.com/fahimscire/privacy-redirector
 // @run-at document-start
 // @match *://*.fandom.com/*
 // @match *://*.imdb.com/*
@@ -45,19 +45,19 @@ CHANGE THE RELEVANT VALUE TO "false" TO
 DISABLE THE REDIRECTION FOR THAT
 PARTICULAR SITE */
 var redirect_fandom = true;
-var redirect_gtranslate = true;
+var redirect_gtranslate = false;
 var redirect_hackernews = true;
 var redirect_imdb = true;
 var redirect_imgur = true;
-var redirect_instagram = false;
+var redirect_instagram = true;
 var redirect_medium = true;
-var redirect_quora = false;
+var redirect_quora = true;
 var redirect_reddit = true;
 var redirect_reuters = true;
 var redirect_tiktok = true;
 var redirect_twitter = true;
 var redirect_wikipedia = true;
-var redirect_youtube = true;
+var redirect_youtube = false;
 
 // // // // // // // // // // // // //
 
